@@ -1,0 +1,50 @@
+#logo{ 
+	position:fixed; 
+	top:7%;
+	left:8%;
+}
+
+body{
+	font-family: sans-serif;
+	position:none;
+}
+
+.box1{
+	width:1300px;
+	height:720px;
+	margin-top:30px;
+	margin-left:90px;
+	background-color:EBECF0;
+	border-radius:20px;
+}
+
+.formbox{
+	width:800px;
+	height:680px;
+	margin-left:420px;
+	background-color:white;
+	border-radius:20px;
+}
+
+.formbox input[type="text"], input[type="password"]
+{
+	padding: 10px 40px;
+	background-color:EBECF0;
+	border-radius:20px;
+}
+
+.formbox p{
+	font-size:12px;
+}
+
+.button{
+	padding:10px 30px;
+	font-size:15px;
+	color:black;
+	border-radius:30px;
+}
+
+.formbox a{
+	font-size:15px;
+	text-decoration:none;
+}

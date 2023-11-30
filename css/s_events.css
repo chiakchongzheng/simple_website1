@@ -1,0 +1,149 @@
+#logo{ 
+	position:fixed; 
+	top:3%;
+	left:2%;
+}
+
+body{
+    position:auto;
+}
+
+h1{
+    width:1000px;
+    height:60px;
+    font-size:45px;
+    margin-top:-700px;
+    margin-left:400px;
+    font-family:sans-serif;
+    color:white;
+    background-color:darkgray;
+}
+
+h2{
+    font-size:25px;
+    font-family:sans-serif;
+    color:black;
+}
+
+.box{
+    width:1100px;
+    height:auto;
+    margin-top: 0px;
+    margin-left:400px;
+    background-color: lightgray;
+    border-radius:20px;
+}
+
+.table{
+    margin-top:20px;
+}
+
+.table >table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.table >table * {
+  position: relative;
+  border-radius:5px;
+}
+
+.box >table td, table th {
+  padding-left: 8px;
+}
+
+.table > table tr {
+  height: 40px;
+  background: none;
+  font-size: 16px;
+}
+
+.table >table tbody tr {
+  height: 30px;
+  border-bottom: 1px solid #E3F1D5;
+}
+
+.box >table tbody tr:last-child {
+  border: 0;
+}
+
+.box >table td, table th {
+  text-align: left;
+}
+
+.box >table td.l, table th.l {
+  text-align: right;
+}
+
+.box >table td.c, table th.c {
+  text-align: center;
+}
+
+.box >table td.r, table th.r {
+  text-align: center;
+}
+
+@media screen and (max-width: 35.5em) {
+  .box >table {
+    display: block;
+  }
+  .box >table > *, table tr, table td, table th {
+    display: block;
+  }
+  .box >table thead {
+    display: none;
+  }
+  .table >table tbody tr {
+    height: 20px;
+    padding: 8px 0;
+  }
+  .box >table tbody tr td {
+    padding-left: 45%;
+    margin-bottom: 12px;
+  }
+  .box >table tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  .box >table tbody tr td:before {
+    position: absolute;
+    font-weight: 700;
+    width: 40%;
+    left: 10px;
+    top: 0;
+  }
+  .box >table tbody tr td:nth-child(1):before {
+    content: "Code";
+  }
+  .box >table tbody tr td:nth-child(2):before {
+    content: "Stock";
+  }
+  .box >table tbody tr td:nth-child(3):before {
+    content: "Cap";
+  }
+  .box >table tbody tr td:nth-child(4):before {
+    content: "Inch";
+  }
+  .box >table tbody tr td:nth-child(5):before {
+    content: "Box Type";
+  }
+}
+
+.add{
+	width: 100%;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	height: 20px;
+	background: lightblue;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}

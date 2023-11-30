@@ -1,0 +1,43 @@
+#logo{ 
+	position:fixed; 
+	top:3%;
+	left:3%;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.main{
+    height:700px;
+    width:700px;
+	position:fixed;
+    margin-top:20px;
+    margin-left:770px;
+    color:white;
+    background-color:ADD8E6;
+    border-radius:10px;
+}
+
+h1{
+    font-size:80px;
+    color:white;
+}
+
+h2{
+    font-size:45px;
+    color:white;
+}
+
+.button{
+	width: 100%;
+	padding: 50px 100px;
+	border: none;
+	outline: none;
+	height: 35px;
+	background: pink;
+	color: #fff;
+	font-size: 45px;
+	border-radius: 10px;
+	text-decoration: none;
+}
